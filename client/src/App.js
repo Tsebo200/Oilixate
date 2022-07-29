@@ -5,24 +5,11 @@ import {Helmet} from "react-helmet";
 function App() {
   return (
     <div className="App">
-      <Helmet>
+    <Helmet>
+    <meta charSet="utf-8" />
     <title>Oilixate</title>
-    <meta name="description" content="Nested component" />
-    </Helmet> 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <meta name="description" content="E-commerce website on Medicinal Oils" />
+    </Helmet>
     </div>
   );
 }
