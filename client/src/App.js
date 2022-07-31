@@ -13,7 +13,7 @@ function App() {
     <meta name="description" content="E-commerce website on Medicinal Oils" />
     </Helmet>
     <Routes>
-    <Route path="/" element={<Login/>}></Route>
+    <Route path="/" element={<><Login/></>}></Route>
     </Routes>
     </div>
   );
