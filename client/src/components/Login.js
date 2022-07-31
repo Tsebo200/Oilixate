@@ -2,6 +2,9 @@ import React from "react";
 import {useNavigate} from "react-router-dom";
 
 const Login = () => {
+    const locate = useNavigate;
+    locate("/Dashboard");
+
     return(
         <>
         <div className="main-container">
@@ -17,9 +20,9 @@ const Login = () => {
                 <form><input className='password-input' type={'password'} placeholder={"Enter Your Password"} /*onChange={passwordVal}*/></input></form>
                 <form><input className='check-box' type={'checkbox'}></input><label>Remember for 30 days</label></form>
                 <p className='forgot-password-text'>forgot password?</p>
-                <div className='signIn-btn-container' /*onClick={handleSubmit}*/>
+                <a href="Dashboard"><div className='signIn-btn-container' /*onClick={locate}*/>
                     <p className='signIn-btn-text'>Sign in</p>
-                </div>
+                </div></a>
                 <div className='SignIn-Google-btn'><p className='Sign-Google-text'>Sign In with Google</p></div>
                 <p className='no-account-text'>Don't have an account?</p><a href='register'><p className='signup-text'>Sign up</p></a>
             </div>

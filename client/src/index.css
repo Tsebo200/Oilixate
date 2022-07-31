@@ -34,7 +34,7 @@ html, body, p, li, ul, h1{
   height: 47.09px;
   margin-top: 96px;
   margin-left: 110px;
-  background-color: red;
+  background-color:  #2B2B2B;;
   /* background-image: url("../src/Assets/Logo.png"); */
   background-repeat: no-repeat;
   background-position: center;
@@ -161,14 +161,14 @@ label{
 .signIn-btn-container{
   width: 301px;
   height: 39px;
-  margin-left: 116px;
+  margin-left: 113px;
   margin-top: 60px;
   border-radius: 9px;
   background-color: #0984e3;
   float: left;
 }
 
-.btn-container:hover{
+.signIn-btn-container:hover{
   background-color: #2F3542;
   cursor: pointer;
 }
@@ -223,7 +223,7 @@ label{
   width: 301px;
   height: 39px;
   border: 1px solid grey;
-  margin-left: 116px;
+  margin-left: 113px;
   margin-top: 14px;
   background-image: url("../src/assets/Google.png");
   background-repeat: no-repeat;
@@ -242,4 +242,49 @@ label{
   letter-spacing: -0.006em;
   margin-left: 27px;
   margin-top: 12px;
+}
+
+/* Nav Bar */
+.label-container{
+  width: 495px;
+  height: 24px;
+  margin-left: 586px;
+  margin-top: 42px;
+}
+
+.home-label{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: -440px;
+}
+
+.products-label{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: -170px;
+  margin-top: -25px;
+}
+
+.checkout-label{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 120px;
+  margin-top: -25px;
+}
+
+.admin-label{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 400px;
+  margin-top: -25px;
+}
+
+.dash-logo{
+  width: 80px;
+  height: 80px;
+  background:#2B2B2B;;
 }

@@ -3,6 +3,7 @@ import './App.css';
 import {Helmet} from "react-helmet";
 import Login from './components/Login';
 import {Route, Routes} from 'react-router-dom';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     </Helmet>
     <Routes>
     <Route path="/" element={<><Login/></>}></Route>
+    <Route path="/Dashboard" element={<><Dashboard/></>}></Route>
     </Routes>
     </div>
   );
