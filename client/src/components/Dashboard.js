@@ -12,6 +12,9 @@ const Dashboard = () => {
             <p className="admin-label">Admin</p>
             </div>
             <div className="dash-logo"></div>
+            <div className="slider-container">
+            <div className="image-slide"></div>
+            </div>
         </div>
         </>
     )

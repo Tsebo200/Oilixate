@@ -246,45 +246,58 @@ label{
 
 /* Nav Bar */
 .label-container{
-  width: 495px;
+  width: 509px;
   height: 24px;
   margin-left: 586px;
   margin-top: 42px;
+  background: red;
+  float: left;
 }
 
 .home-label{
   font-family: 'Inter';
   font-weight: 400;
   font-size: 20px;
-  margin-left: -440px;
+  float: left;
 }
 
 .products-label{
   font-family: 'Inter';
   font-weight: 400;
   font-size: 20px;
-  margin-left: -170px;
-  margin-top: -25px;
+  margin-left: 71px;
+  float: left;
 }
 
 .checkout-label{
   font-family: 'Inter';
   font-weight: 400;
   font-size: 20px;
-  margin-left: 120px;
-  margin-top: -25px;
+  margin-left: 71px;
+  float: left;
 }
 
 .admin-label{
   font-family: 'Inter';
   font-weight: 400;
   font-size: 20px;
-  margin-left: 400px;
-  margin-top: -25px;
+  margin-left: 71px;
+  float: left;
 }
 
 .dash-logo{
   width: 80px;
   height: 80px;
-  background:#2B2B2B;;
+  background:#2B2B2B;
+  margin-top: 79px;
+  margin-left: 56px;
+}
+
+.slider-container{
+  width: 1107px;
+  height: 753px;
+  background:#2B2B2B;
+  margin-top: -63px;
+  margin-left: 220px;
+  float: left;
 }
