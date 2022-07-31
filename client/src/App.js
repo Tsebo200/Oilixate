@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import {Helmet} from "react-helmet";
+import Login from './components/Login';
+import {Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
@@ -10,6 +12,9 @@ function App() {
     <title>Oilixate</title>
     <meta name="description" content="E-commerce website on Medicinal Oils" />
     </Helmet>
+    <Routes>
+    <Route path="/" element={<Login/>}></Route>
+    </Routes>
     </div>
   );
 }
