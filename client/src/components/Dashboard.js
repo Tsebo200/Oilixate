@@ -6,15 +6,17 @@ const Dashboard = () => {
         <>
         <div className="main-container">
             <div className="label-container">
-            <p className="home-label">Home</p> 
-            <p className="products-label">Products</p>
-            <p className="checkout-label">Checkout</p>
-            <p className="admin-label">Admin</p>
+            <a href="/Dashboard"><p className="home-label">Home</p></a>
+            <a href="/Products"><p className="products-label">Products</p></a>
+            <a href="/Checkout"><p className="checkout-label">Checkout</p></a>
+            <a href="/Admin"><p className="admin-label">Admin</p></a>
             </div>
-            <div className="dash-logo"></div>
+            <a href="/Dashboard"><div className="dash-logo"></div></a>
+            <div className="slider-index"></div>
             <div className="slider-container">
             <div className="image-slide"></div>
             </div>
+            
         </div>
         </>
     )

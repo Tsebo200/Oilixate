@@ -4,6 +4,7 @@ import {Helmet} from "react-helmet";
 import Login from './components/Login';
 import {Route, Routes} from 'react-router-dom';
 import Dashboard from './components/Dashboard';
+import Products from './components/Products';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Routes>
     <Route path="/" element={<><Login/></>}></Route>
     <Route path="/Dashboard" element={<><Dashboard/></>}></Route>
+    <Route path="/Products" element={<><Products/></>}></Route>
     </Routes>
     </div>
   );

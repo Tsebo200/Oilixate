@@ -250,54 +250,85 @@ label{
   height: 24px;
   margin-left: 586px;
   margin-top: 42px;
-  background: red;
+  background: transparent;
   float: left;
 }
 
 .home-label{
   font-family: 'Inter';
   font-weight: 400;
+  color: #000000;
   font-size: 20px;
   float: left;
+}
+
+.home-label:hover{
+  color: white;
 }
 
 .products-label{
   font-family: 'Inter';
   font-weight: 400;
+  color: #000000;
   font-size: 20px;
   margin-left: 71px;
   float: left;
+}
+
+.products-label:hover{
+ color: white;
 }
 
 .checkout-label{
   font-family: 'Inter';
   font-weight: 400;
+  color: #000000;
   font-size: 20px;
   margin-left: 71px;
   float: left;
 }
 
+.checkout-label:hover{
+  color: white;
+}
+
 .admin-label{
   font-family: 'Inter';
   font-weight: 400;
+  color: #000000;
   font-size: 20px;
   margin-left: 71px;
   float: left;
+}
+
+.admin-label:hover{
+ color: white;
 }
 
 .dash-logo{
   width: 80px;
   height: 80px;
   background:#2B2B2B;
+  border-radius: 100%;
   margin-top: 79px;
   margin-left: 56px;
 }
 
 .slider-container{
   width: 1107px;
-  height: 753px;
-  background:#2B2B2B;
+  /* height: 693px; */
+  height: 670px;
+  background: #2B2B2B;
   margin-top: -63px;
-  margin-left: 220px;
+  margin-left: 130px;
+  float: left;
+}
+
+.slider-index{
+  width: 2px;
+  height: 358px;
+  background: #FFFFFF;
+  margin-left: 95px;
+  margin-top: 114px;
   float: left;
 }
