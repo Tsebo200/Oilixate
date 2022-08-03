@@ -16,6 +16,30 @@ const Products = () => {
                  vitae fames dignissim urna tincidunt. Enim, porttitor purus in neque. Et pellentesque id eget 
                  cursus. Turpis donec bibendum velit vel.</p>
             </div>
+
+            <p className="bought-with-text">Usually Bought with</p>
+            <div className="product-two-container">
+                <div className="product-two-img"></div>
+                <p className="product-two-name">Healing</p>
+            </div>
+            <div className="product-three-container">
+                <div className="product-three-img"></div>
+                <p className="product-three-name">Archangel haniel</p>
+            </div>
+            <div className="product-four-container">
+                <div className="product-four-img"></div>
+                <p className="product-four-name">7 Chakras</p>
+            </div>
+            <div className="buttons-container">
+                <div className="add-and-sub-container">
+                    <div className="sub-btn-side"></div>
+                    <div className="counter-side"></div>
+                    <div className="add-btn-side"></div>
+                </div>
+                <div className="add-cart-btn">
+                    <p className="add-to-cart-text"></p>
+                </div>
+            </div>
             </div>
         </div>
         </>

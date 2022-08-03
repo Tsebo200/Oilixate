@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
 html, body, p, li, ul, h1{
   margin: 0;
   padding: 0;
@@ -581,3 +581,98 @@ html, body, p, li, ul, h1{
   font-size: 13px;
   float: left;
 }
+
+.bought-with-text{
+  font-family: 'Inter';
+  font-weight: 600;
+  margin-top: 52px;
+  font-size: 15px;
+  color: #000000;
+  float: left;
+}
+
+/* Product Two */
+.product-two-container{
+  width: 84px;
+  height: 112px;
+  margin-top: 105px;
+  margin-left: -145px;
+  background: rgba(158, 158, 158, 0.4);
+  float: left;
+}
+
+.product-two-img{
+  width: 84px;
+  height: 84px;
+  background: #D9D9D9;
+  border-radius: 100%;
+  float: left;
+}
+
+.product-two-name{
+  font-family: 'Inter';
+  margin-top: 10px;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+  text-transform: uppercase;
+  float: left;
+}
+
+/* Product Three */
+.product-three-container{
+  width: 84px;
+  height: 112px;
+  margin-top: 105px;
+  margin-left: -15px;
+  background: rgba(158, 158, 158, 0.4);
+  float: left;
+}
+
+.product-three-img{
+  width: 84px;
+  height: 84px;
+  background: #D9D9D9;
+  border-radius: 100%;
+  float: left;
+}
+
+.product-three-name{
+  font-family: 'Inter';
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+  text-transform: uppercase;
+  float: left;
+}
+
+/* Product Four */
+.product-four-container{
+  width: 84px;
+  height: 112px;
+  margin-top: 105px;
+  margin-left: 45px;
+  background: rgba(158, 158, 158, 0.4);
+  float: left;
+}
+
+.product-four-img{
+  width: 84px;
+  height: 84px;
+  background: #D9D9D9;
+  border-radius: 100%;
+  float: left;
+}
+
+.product-four-name{
+  font-family: 'Inter';
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+  text-transform: uppercase;
+  float: left;
+}
+
