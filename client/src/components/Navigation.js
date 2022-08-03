@@ -14,7 +14,9 @@ const Navigation = () => {
             <input type={"text"} placeholder={'Search'} className="search-box"></input>
             <button className="search-btn"></button>
             <div className="shopping-cart-modal"></div>
-            <div className="numb-items"></div>
+            <div className="numb-items">
+                <p className="one-item">1</p>
+            </div>
         </div>
         </div>
         </>
