@@ -271,7 +271,7 @@ label{
 .home-label{
   font-family: 'Inter';
   font-weight: 400;
-  color: #000000;
+  color: #DAEFDE;
   font-size: 20px;
   float: left;
 }
@@ -283,7 +283,7 @@ label{
 .products-label{
   font-family: 'Inter';
   font-weight: 400;
-  color: #000000;
+  color: #DAEFDE;
   font-size: 20px;
   margin-left: 71px;
   float: left;
@@ -296,7 +296,7 @@ label{
 .checkout-label{
   font-family: 'Inter';
   font-weight: 400;
-  color: #000000;
+  color: #DAEFDE;
   font-size: 20px;
   margin-left: 71px;
   float: left;
@@ -309,7 +309,7 @@ label{
 .admin-label{
   font-family: 'Inter';
   font-weight: 400;
-  color: #000000;
+  color: #DAEFDE;
   font-size: 20px;
   margin-left: 71px;
   float: left;
@@ -341,10 +341,74 @@ label{
 .slider-index{
   width: 2px;
   height: 358px;
-  background: #FFFFFF;
+  background: #000000;
   margin-left: 95px;
   margin-top: 114px;
   float: left;
+}
+
+.index-active{
+  width: 2px;
+  height: 116px;
+  background: #E6B27E;
+  float: left;
+}
+
+.index-inactive{
+  width: 2px;
+  height: 116px;
+  margin-top: 5px;
+  background: #ECE8DF;
+  float: left;
+}
+
+.oilixate-heading{
+  font-family: 'Inter';
+  margin-top: 269px;
+  margin-left: -205px;
+  font-weight: 400;
+  font-size: 140px;
+  color: #DAEFDE;
+}
+
+.welcome-text{
+  width: 507px;
+  text-align: left;
+  margin-left: -78px;
+  margin-top: 37px;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 22px;
+  color: #ECE8DF;
+  float: left;
+}
+
+.more-text{
+  font-family: 'Inter';
+  margin-top: 174px;
+  margin-left: -507px;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.4em;
+  color: #EBA182;
+  float: left;
+}
+
+.text-content{
+  width: 529px;
+  height: 413px;
+  margin-top: -10px;
+  background: transparent;
+  float: left;
+}
+
+.right-arrow{
+  width: 41px;
+  height: 12.99px;
+  margin-top: 180px;
+  margin-left: 35px;
+  background-image: url("../src/assets/RightArrow.svg");
+
 }
 
 /* Nav-Bar */
