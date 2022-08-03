@@ -534,3 +534,50 @@ html, body, p, li, ul, h1{
 .main-container-two{
   z-index: 0;
 }
+
+.product-info-container-left{
+  width: 483px;
+  height: 530px;
+  margin-top: 123px;
+  margin-left: 128px;
+  background: #D9D9D9;
+  background: #D9D9D9;
+  opacity: 0.4;
+
+}
+
+.product-info-row-one{
+  width: 482px;
+  height: 216px;
+  background: red;
+  opacity: 0.9;
+}
+
+.product-one{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 50px;
+  color: #000000;
+  float: left;
+}
+
+.product-price{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 29px;
+  margin-top: 71px;
+  margin-left: -240px;
+  color: #000000;
+  float: left;
+}
+
+.product-details{
+  font-family: 'Inter';
+  width: 490px;
+  height: 83px;
+  margin-top: 65px;
+  margin-left: -5px;
+  font-weight: 400;
+  font-size: 13px;
+  float: left;
+}
