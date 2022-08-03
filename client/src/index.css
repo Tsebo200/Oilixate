@@ -554,7 +554,7 @@ html, body, p, li, ul, h1{
   font-family: 'Inter';
   font-weight: 400;
   font-size: 50px;
-  color: #000000;
+  color: #2B4447;
   float: left;
 }
 
@@ -564,7 +564,7 @@ html, body, p, li, ul, h1{
   font-size: 29px;
   margin-top: 71px;
   margin-left: -240px;
-  color: #000000;
+  color: #E6B27E;
   float: left;
 }
 
@@ -576,6 +576,8 @@ html, body, p, li, ul, h1{
   margin-left: -5px;
   font-weight: 400;
   font-size: 13px;
+  line-height: 19px;
+  text-align: left;
   float: left;
 }
 
@@ -584,7 +586,7 @@ html, body, p, li, ul, h1{
   font-weight: 600;
   margin-top: 52px;
   font-size: 15px;
-  color: #000000;
+  color: #2B4447;
   float: left;
 }
 
@@ -612,7 +614,7 @@ html, body, p, li, ul, h1{
   margin-left: 5px;
   font-weight: 600;
   font-size: 17px;
-  color: #000000;
+  color: #064E48;
   text-transform: uppercase;
   float: left;
 }
@@ -640,7 +642,7 @@ html, body, p, li, ul, h1{
   margin-top: 10px;
   font-weight: 600;
   font-size: 14px;
-  color: #000000;
+  color: #064E48;
   text-transform: uppercase;
   float: left;
 }
@@ -668,7 +670,7 @@ html, body, p, li, ul, h1{
   margin-top: 10px;
   font-weight: 600;
   font-size: 14px;
-  color: #000000;
+  color: #064E48;
   text-transform: uppercase;
   float: left;
 }
@@ -775,5 +777,29 @@ html, body, p, li, ul, h1{
   border-radius: 9px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   float: left;
+}
+
+.add-cart-btn:hover{
+  background: #2B4447;
   }
   
+  .add-to-cart-text{
+  font-family: 'Inter';
+  margin-top: 17px;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+    
+  .right-chevron-arrow-icon{
+    width: 6px;
+    height: 8px;
+    margin-left: 185px;
+    margin-top: -14px;
+    background-image: url('../src/assets/RightChevArrow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+

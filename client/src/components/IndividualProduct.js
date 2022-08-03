@@ -45,7 +45,8 @@ const IndividualProduct = () => {
                     </div>
                 </div>
                 <div className="add-cart-btn">
-                    <p className="add-to-cart-text"></p>
+                    <p className="add-to-cart-text">Add To Cart</p>
+                    <div className="right-chevron-arrow-icon"></div>
                 </div>
             </div>
             </div>
