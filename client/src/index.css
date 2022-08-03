@@ -869,7 +869,7 @@ html, body, p, li, ul, h1{
   border-radius: 11px;
   float: left;
 }
-.shopping-cart-heading{
+.checkout-heading{
   font-family: 'Inter';
   margin-top: 28px;
   margin-left: 29px;
@@ -883,13 +883,13 @@ html, body, p, li, ul, h1{
   width: 687px;
   height: 17px;
   margin-left: 38px;
+  margin-top: 33px;
   background: rgba(217, 217, 217, 0.3);
   float: left;
 }
 
 .product-heading{
   font-family: 'Inter';
-  /* margin-left: -150px; */
   font-weight: 400;
   font-size: 13px;
   color: #DAEFDE;
@@ -923,6 +923,29 @@ html, body, p, li, ul, h1{
   float: left;
 }
 
+.checkout-hor-line{
+  width: 784px;
+  margin-top: 13px;
+  margin-left: 25px;
+  border: 1px solid #ECE8DF;
+  float: left;
+}
+
+.checkout-content-container{
+  width: 750px;
+  height: 309px;
+  margin-top: 20px;
+  margin-left: 42px;
+  background: #D9D9D9;
+  opacity: 30%;
+  float: left;
+}
+
+.product-img{
+  width: 57px;
+height: 74px;
+left: 153px;
+}
 
 
 /* Payment Section */
