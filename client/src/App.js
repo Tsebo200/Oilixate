@@ -4,7 +4,8 @@ import {Helmet} from "react-helmet";
 import Login from './components/Login';
 import {Route, Routes} from 'react-router-dom';
 import Dashboard from './components/Dashboard';
-import Products from './components/Products';
+// import Products from './components/Products';
+import IndividualProduct from './components/IndividualProduct';
 import Checkout from './components/Checkout';
 import Admin from './components/Admin';
 import Navigation from './components/Navigation';
@@ -20,7 +21,8 @@ function App() {
     <Routes>
     <Route path="/" element={<><Login/></>}></Route>
     <Route path="/Dashboard" element={<><Dashboard/></>}></Route>
-    <Route path="/Products" element={<><Navigation/> <Products/></>}></Route>
+     <Route path="/IndiProduct" element={<><Navigation/> <IndividualProduct/></>}></Route>
+    {/* <Route path="/Products" element={<><Navigation/> <Products/></>}></Route> */}
     <Route path="/Checkout" element={<><Navigation/> <Checkout/></>}></Route>
     <Route path="/Admin" element={<><Navigation/> <Admin/></>}></Route>
     </Routes>

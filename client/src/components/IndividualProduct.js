@@ -1,7 +1,7 @@
 import React from "react";
 import {useNavigate} from "react-router-dom";
 
-const Products = () => {
+const IndividualProduct = () => {
     return(
         <>
         <div className="main-container-two">
@@ -45,4 +45,4 @@ const Products = () => {
         </>
     )
 }
-export default Products
+export default IndividualProduct
