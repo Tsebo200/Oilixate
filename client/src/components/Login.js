@@ -18,7 +18,7 @@ const Login = () => {
                 <form><input className='email-input' type={'email'} placeholder={"Enter Your Email"} /*onChange={emailVal}*/></input></form>
                 <p className='password-text'>Password</p>
                 <form><input className='password-input' type={'password'} placeholder={"Enter Your Password"} /*onChange={passwordVal}*/></input></form>
-                <form><input className='check-box' type={'checkbox'}></input><label>Remember for 30 days</label></form>
+                <form><input className='check-box' type={'checkbox'}></input><label className="remember-me-text">Remember for 30 days</label></form>
                 <p className='forgot-password-text'>forgot password?</p>
                 <a href="Dashboard"><div className='signIn-btn-container' /*onClick={locate}*/>
                     <p className='signIn-btn-text'>Sign in</p>
