@@ -4,7 +4,6 @@ import {useNavigate} from "react-router-dom";
 const Navigation = () => {
     return(
         <>
-        <div className="main-container-two">
         <div className="nav-bar">
             <div className="nav-logo"></div>
             <a href="/Dashboard"><p className="nav-home">Home</p></a>
@@ -17,7 +16,6 @@ const Navigation = () => {
             <div className="numb-items">
                 <p className="one-item">1</p>
             </div>
-        </div>
         </div>
         </>
     )

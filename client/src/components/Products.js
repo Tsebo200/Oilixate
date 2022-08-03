@@ -4,7 +4,9 @@ import {useNavigate} from "react-router-dom";
 const Products = () => {
     return(
         <>
-            <div className=""></div>
+        <div className="main-container-two">
+            <div className="hor-line"></div>
+        </div>
         </>
     )
 }
