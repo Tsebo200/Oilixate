@@ -860,3 +860,78 @@ html, body, p, li, ul, h1{
   border-radius: 100%;
 }
 
+.products-table-container{
+  width: 839px;
+  height: 630px;
+  margin-top: 50px;
+  margin-left: 111px;
+  background: #2B4447;
+  border-radius: 11px;
+  float: left;
+}
+.shopping-cart-heading{
+  font-family: 'Inter';
+  margin-top: 28px;
+  margin-left: 29px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #E6B27E;
+  float: left;
+}
+
+.headings-container{
+  width: 687px;
+  height: 17px;
+  margin-left: 38px;
+  background: rgba(217, 217, 217, 0.3);
+  float: left;
+}
+
+.product-heading{
+  font-family: 'Inter';
+  /* margin-left: -150px; */
+  font-weight: 400;
+  font-size: 13px;
+  color: #DAEFDE;
+  float: left;
+}
+
+.size-heading{
+  font-family: 'Inter';
+  margin-left: 254px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #DAEFDE;
+  float: left;
+}
+
+.quantity-heading{
+  font-family: 'Inter';
+  margin-left: 126px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #DAEFDE;
+  float: left;
+}
+
+.total-price-heading{
+  font-family: 'Inter';
+  margin-left: 105px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #DAEFDE;
+  float: left;
+}
+
+
+
+/* Payment Section */
+.payment-info-container{
+  width: 387px;
+  height: 630px;
+  margin-top: 50px;
+  margin-left: 45px;
+  background: #2B4447;
+  border-radius: 11px;
+  float: left;
+}
