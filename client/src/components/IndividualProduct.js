@@ -32,9 +32,17 @@ const IndividualProduct = () => {
             </div>
             <div className="buttons-container">
                 <div className="add-and-sub-container">
-                    <div className="sub-btn-side"></div>
-                    <div className="counter-side"></div>
-                    <div className="add-btn-side"></div>
+                    <div className="sub-btn-side">
+                        <div className="subtract-icon"></div>
+                    <div className="vert-line"></div>
+                    </div>
+                    <div className="counter-side">
+                        <p className="current-count">2</p>
+                    <div className="vert-line-two"></div>
+                    </div>
+                    <div className="add-btn-side">
+                        <div className="plus-icon"></div>
+                    </div>
                 </div>
                 <div className="add-cart-btn">
                     <p className="add-to-cart-text"></p>
