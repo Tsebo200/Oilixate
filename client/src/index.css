@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
 html, body, p, li, ul, h1{
   margin: 0;
   padding: 0;
@@ -41,7 +42,7 @@ html, body, p, li, ul, h1{
   height: 47.09px;
   margin-top: 96px;
   margin-left: 110px;
-  background-color:  #2B2B2B;;
+  background-color:  #2B2B2B;
   /* background-image: url("../src/Assets/Logo.png"); */
   background-repeat: no-repeat;
   background-position: center;
@@ -884,7 +885,7 @@ html, body, p, li, ul, h1{
   height: 17px;
   margin-left: 38px;
   margin-top: 33px;
-  background: rgba(217, 217, 217, 0.3);
+  background: transparent;
   float: left;
 }
 
@@ -937,16 +938,129 @@ html, body, p, li, ul, h1{
   margin-top: 20px;
   margin-left: 42px;
   background: #D9D9D9;
-  opacity: 30%;
   float: left;
 }
 
-.product-img{
-  width: 57px;
-height: 74px;
-left: 153px;
+.row-one{
+  width: 750px;
+  height: 74px;
+  /* background: #2b2b2b76; */
+  float: left;
 }
 
+.checkout-product-img{
+  width: 57px;
+  height: 74px;
+  background: #2b2b2b;
+  float: left;
+}
+
+.checkout-product-detail-container{
+  width: 79px;
+  height: 74px;
+  margin-left: 23px;
+  background: transparent;
+  float: left;
+}
+
+.checkout-product-name{
+  font-family: 'Inter';
+  font-weight: 700;
+  margin-top: 19px;
+  font-size: 13px;
+  color: #E6B27E;
+  float: left;
+}
+
+.checkout-variation-product-one{
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #2B4447;
+  float: left;
+}
+
+.size-selection{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  width: 90px;
+  height: 29px;
+  margin-left: 117px;
+  margin-top: 20px;
+  border-style: none;
+  text-align: center;
+  background: #ECE8DF;
+  color: #EBA182; /* How to change color of the dropdown icon Only */
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  float: left;
+}
+
+.quantity-selector-container{
+  width: 71px;
+  height: 19px;
+  margin-top: 25px;
+  margin-left: 75px;
+  background: #2B4447;
+  border-radius: 2px;
+  float: left;
+}
+
+.checkout-minus-block{
+  width: 18px;
+  height: 19px;
+  background: #D9D9D9;
+  border-radius: 2px 0px 0px 2px;
+  float: left;
+}
+
+.checkout-minus-icon{
+  width: 14px;
+  height: 14px;
+  margin-top: 2.5px;
+  margin-left: 2px;
+  background-image: url('../src/assets/Minus.svg');
+  float: left;
+}
+
+.checkout-quantity-count{
+  font-family: 'Inter';
+  font-weight: 700;
+  margin-left: 12px;
+  font-size: 16px;
+  color: #ECE8DF;
+  float: left;
+}
+
+.checkout-plus-block{
+  width: 18px;
+  height: 19px;
+  margin-left: 12.9px;
+  background: #D9D9D9;
+  border-radius: 0px 2px 2px 0px;
+  float: left;
+}
+
+.checkout-plus-icon{
+  width: 14px;
+  height: 14px;
+  margin-top: 2.5px;
+  margin-left: 2px;
+  background-image: url('../src/assets/Plus.svg');
+  float: left;
+}
+
+.row-one-total-price{
+  font-family: 'Inter';
+  margin-top: 25px;
+  margin-left: 106px;
+  font-weight: 700;
+  color: #ECE8DF;
+  font-size: 16px;
+  float: left;
+}
 
 /* Payment Section */
 .payment-info-container{
