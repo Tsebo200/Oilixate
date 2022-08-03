@@ -206,37 +206,11 @@ html, body, p, li, ul, h1{
   float: left;
 }
 
-.signin-text{
-  cursor: pointer;
-  font-size: 14px;
-  font-family: 'Inter';
-  font-weight: 300;
-  margin-top: 15px;
-  margin-left: 5px;
-  color: blue;
-  float: left;
-}
-
-.signup-text{
-  cursor: pointer;
-  font-size: 14px;
-  font-family: 'Inter';
-  font-weight: 300;
-  margin-top: 15px;
-  margin-left: 5px;
-  color: blue;
-  float: left;
-}
-
-.signup-text:hover{
-  cursor: pointer;
-  color: white;
-}
-
 .SignIn-Google-btn{
   width: 301px;
   height: 39px;
   border: 1px solid grey;
+  background-color: white;
   margin-left: 113px;
   margin-top: 14px;
   background-image: url("../src/assets/Google.png");
@@ -244,7 +218,6 @@ html, body, p, li, ul, h1{
   background-position: 75px;
   background-size: 22px 22px;
   border-radius: 9px;
-  background-color: white;
   float: left;
 }
 
@@ -419,10 +392,20 @@ html, body, p, li, ul, h1{
   float: left;
 }
 
+.nav-logo{
+  width: 80px;
+  height: 80px;
+  margin-top: 27px;
+  margin-left: 31px;
+  background: grey;
+  border-radius: 100%;
+  float: left;
+}
+
 .nav-home{
   font-family: 'Inter';
   margin-top: 40px;
-  margin-left: 355px;
+  margin-left: 324px;
   font-weight: 300;
   color: #DAEFDE;
   font-size: 20px;
@@ -472,15 +455,16 @@ html, body, p, li, ul, h1{
 }
 
 .nav-admin:hover{
-  color: #FFFFFF;
+  color: #2B4447;
 }
 
 .search-box{
-  width: 229px;
+  width: 225px;
   height: 43px;
   margin-top: 31px;
   margin-left: 91px;
-  background: rgba(217, 217, 217, 0.3);
+  padding-left: 1%;
+  background: #ECE8DF;
   border: 1px solid #000000;
   border-radius: 8px;
   float: left;
@@ -488,7 +472,6 @@ html, body, p, li, ul, h1{
 
 ::placeholder{
   color: #000000;
-  padding-left: 5px;
 }
 
 .search-btn{
@@ -496,8 +479,31 @@ html, body, p, li, ul, h1{
   width: 36px;
   height: 35px;
   margin-top: 37px;
-  margin-left: -39px;
-  background: #C7ECEE;
+  margin-left: -41px;
+  background: #EBA182;
   border-radius: 5px;
+  background-image: url("../src/assets/Search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 21px 21px;
   float: left;
+}
+
+.shopping-cart-modal{
+  width: 35px;
+  height: 35px;
+  margin-top: 35px;
+  margin-left: 74px;
+  background: #ECE8DF;
+  background-image: url("../src/assets/Trolley.svg");
+  background-repeat: no-repeat;
+  background-position: 7px 10px;
+  background-size: 20px 20px;
+  border-radius: 6px;
+  float: left;
+}
+
+.numb-items{
+  width: 16px;
+  height: 16px; 
 }

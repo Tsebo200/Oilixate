@@ -13,7 +13,8 @@ const Navigation = () => {
             <a href="/Admin"><p className="nav-admin">Admin</p></a>
             <input type={"text"} placeholder={'Search'} className="search-box"></input>
             <button className="search-btn"></button>
-            <div className="checkout-modal"></div>
+            <div className="shopping-cart-modal"></div>
+            <div className="numb-items"></div>
         </div>
         </div>
         </>
