@@ -50,6 +50,15 @@ const IndividualProduct = () => {
                 </div>
             </div>
             </div>
+            <div className="product-info-container-right">
+                <div className="main-product"></div>
+                <div className="other-products-container">
+                    <div className="other-product-one"></div>
+                    <div className="other-product-two"></div>
+                    <div className="other-product-three"></div>
+                    <div className="other-product-four"></div>
+                </div>
+            </div>
         </div>
         </>
     )

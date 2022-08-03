@@ -5,7 +5,7 @@ const Checkout = () => {
     return(
         <>
         <div className="main-container-two">
-            <div className=""></div>
+            <div className="products-table-container"></div>
         </div>
         </>
     )
