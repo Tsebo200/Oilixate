@@ -9,6 +9,7 @@ import IndividualProduct from './components/IndividualProduct';
 import Checkout from './components/Checkout';
 import Admin from './components/Admin';
 import Navigation from './components/Navigation';
+import ShoppingCart from './components/ShoppingCart';
 
 function App() {
   return (
@@ -19,12 +20,13 @@ function App() {
     <meta name="description" content="E-commerce website on Medicinal Oils" />
     </Helmet>
     <Routes>
-    <Route path="/" element={<><Login/></>}></Route>
-    <Route path="/Dashboard" element={<><Dashboard/></>}></Route>
+    <Route path="/Login" element={<><Login/></>}></Route>
+    <Route path="/" element={<><Dashboard/></>}></Route>
      <Route path="/IndiProduct" element={<><Navigation/> <IndividualProduct/></>}></Route>
     {/* <Route path="/Products" element={<><Navigation/> <Products/></>}></Route> */}
     <Route path="/Checkout" element={<><Navigation/> <Checkout/></>}></Route>
     <Route path="/Admin" element={<><Navigation/> <Admin/></>}></Route>
+    <Route path='/ShoppingCart' element={<><ShoppingCart/></>}></Route>
     </Routes>
     </div>
   );

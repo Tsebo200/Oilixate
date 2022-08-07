@@ -490,7 +490,7 @@ html, body, p, li, ul, h1{
   float: left;
 }
 
-.shopping-cart-modal{
+.shopping-cart{
   width: 35px;
   height: 35px;
   margin-top: 33px;
@@ -502,6 +502,28 @@ html, body, p, li, ul, h1{
   background-size: 20px 20px;
   border-radius: 6px;
   float: left;
+}
+
+.modal{
+  width: 115px;
+  height: 74px;
+  margin-top: -654px;
+  margin-left: 1301px;
+  background: #2B4447;
+  border: 0.2px solid #ECE8DF;
+  border-radius: 3px;
+  float: left;
+}
+
+.modal-arrow{
+  width: 24px;
+  height: 24px;
+  margin-top: -671px;
+  margin-left: 1347px;
+  background: transparent;
+  background-image: url('../src/assets/UpArrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .numb-items{

@@ -6,7 +6,7 @@ const Dashboard = () => {
         <>
         <div className="main-container">
             <div className="label-container">
-            <a href="/Dashboard"><p className="home-label">Home</p></a>
+            <a href="/"><p className="home-label">Home</p></a>
             <a href="/IndiProduct"><p className="products-label">Products</p></a>
             <a href="/Checkout"><p className="checkout-label">Checkout</p></a>
             <a href="/Admin"><p className="admin-label">Admin</p></a>

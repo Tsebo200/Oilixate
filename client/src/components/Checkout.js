@@ -23,9 +23,9 @@ const Checkout = () => {
                         </div>
 
                         <select className="size-selection">
+                            <option>5 ml</option>
+                            <option>15 ml</option>
                             <option>30 ml</option>
-                            <option>75 ml</option>
-                            <option>150 ml</option>
                         </select>
 
                         <div className="quantity-selector-container">

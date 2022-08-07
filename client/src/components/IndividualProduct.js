@@ -2,6 +2,8 @@ import React from "react";
 import {useNavigate} from "react-router-dom";
 
 const IndividualProduct = () => {
+    const locate = useNavigate;
+    locate("/Login");
     return(
         <>
         <div className="main-container-two">
@@ -44,10 +46,10 @@ const IndividualProduct = () => {
                         <div className="plus-icon"></div>
                     </div>
                 </div>
-                <div className="add-cart-btn">
+               <a href="Login"> <div className="add-cart-btn" onClick={locate}>
                     <p className="add-to-cart-text">Add To Cart</p>
                     <div className="right-chevron-arrow-icon"></div>
-                </div>
+                </div></a>
             </div>
             </div>
             <div className="product-info-container-right">
@@ -58,6 +60,10 @@ const IndividualProduct = () => {
                     <div className="other-product-three"></div>
                     <div className="other-product-four"></div>
                 </div>
+            </div>
+            <div className="modal-arrow"></div>
+            <div className="modal">
+               
             </div>
         </div>
         </>
