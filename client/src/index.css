@@ -959,7 +959,7 @@ html, body, p, li, ul, h1{
   height: 309px;
   margin-top: 20px;
   margin-left: 42px;
-  background: #D9D9D9;
+  /* background: #D9D9D9; */
   float: left;
 }
 
@@ -967,6 +967,39 @@ html, body, p, li, ul, h1{
   width: 750px;
   height: 74px;
   /* background: #2b2b2b76; */
+  float: left;
+}
+
+.row-two{
+  width: 750px;
+  height: 74px;
+  margin-top: 35px;
+  /* background: #2b2b2b76; */
+  float: left;
+}
+
+
+.row-three{
+  width: 750px;
+  height: 74px;
+  margin-top: 35px;
+  /* background: #2b2b2b76; */
+  float: left;
+}
+
+.remove-btn{
+  width: 16px;
+  height: 15px;
+  margin-left: 40px;
+  margin-top: 25px;
+  background-image: url('../src/assets/cross.svg');
+  float: left;
+}
+
+.remove-btn:hover{
+  width: 16px;
+  height: 15px;
+  background-image: url('../src/assets/crosshover.svg');
   float: left;
 }
 
@@ -999,7 +1032,7 @@ html, body, p, li, ul, h1{
   font-weight: 400;
   margin-top: 8px;
   font-size: 12px;
-  color: #2B4447;
+  color: #ECE8DF;
   float: left;
 }
 
@@ -1024,7 +1057,7 @@ html, body, p, li, ul, h1{
   width: 71px;
   height: 19px;
   margin-top: 25px;
-  margin-left: 75px;
+  margin-left: 85px;
   background: #2B4447;
   border-radius: 2px;
   float: left;
@@ -1084,13 +1117,254 @@ html, body, p, li, ul, h1{
   float: left;
 }
 
+.return-shop-ui{
+  width: 190px;
+  height: 20px;
+  margin-top: 100px;
+  margin-left: 50px;
+  /* background: #2B2B2B; */
+  float: left;
+}
+
+.return-icon{
+  width: 12px;
+  height: 13px;
+  margin-top: 5px;
+  background-image: url('../src/assets/LeftChev.svg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  float: left;
+}
+
+.cont-shopping{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  color: #ECE8DF;
+  margin-left: 10px;
+  float: left;
+}
+
+.subtotal-text{
+  font-family: 'Inter';
+  font-weight: 700;
+  /* margin-top: 48px;
+  margin-left: 346px; */
+  font-size: 14px;
+  color: #D9D9D9;
+  float: left;
+}
+
+.subtotal-price{
+font-family: 'Inter';
+font-weight: 700;
+font-size: 14px;
+margin-left: 70px;
+color: #DAEFDE;
+float: left;
+}
+
+.shipping-text{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: -173px;
+  color: #D9D9D9;
+  float: left;
+}
+
+.shipping-price{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: -40px;
+  color: #DAEFDE;
+  float: left;
+}
+
+.subtotal-price-container{
+  width: 210px;
+  height: 110px;
+  margin-top: 48px;
+  margin-left: 346px;
+  float: left;
+}
+
+.grand-total-text{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 70px;
+  color: #ECE8DF;
+  float: left;
+}
+
+.grand-total-price{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 21px;
+  color: #E6B27E;
+  margin-top: 70px;
+  margin-left: 90px;
+  float: left;
+}
+
 /* Payment Section */
 .payment-info-container{
+  position: relative;
   width: 387px;
   height: 630px;
-  margin-top: 50px;
-  margin-left: 45px;
+  left: 995px;
+  top: 50px;
+  /* margin-top: 50px;
+  margin-left: 45px; */
   background: #2B4447;
   border-radius: 11px;
-  float: left;
+  /* float: left; */
+}
+
+.payment-info{
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  left: 34px;
+  top: 31px;
+  color: #E6B27E;
+}
+
+.payment-method-container{
+position: absolute;
+width: 127px;
+height: 102px;
+left: 1028px;
+top: 237px;
+/* background: rgba(217, 217, 217, 0.3); */
+}
+
+.payment-method-text{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #ECE8DF;
+
+}
+
+.checkboxes-container{
+position: absolute;
+/* width: 129px; */
+width: 300px;
+height: 71px;
+/* background: red; */
+left: 0px;
+top: 41px;
+}
+
+
+input[type="radio"].credit{
+  position: absolute;
+  left: 0px;
+  top: 0px
+}
+
+.credit-icon{
+  position: absolute;
+  width: 22px;
+  background-image: url('../src/assets/CreditCard.svg');
+  height: 14px;
+  left: 30px;
+  top: 0px;
+}
+
+.credit-text{
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #EBA182;
+  top: 0px;
+  left: 60px;
+}
+
+.paypal-container{
+  position: absolute;
+  width: 200px;
+  height: 22px;
+  top: 35px;
+  /* background: blue; */
+}
+
+input[type="radio"].paypal{
+  position: absolute;
+  left: 0px;
+  top: 2px
+}
+
+.paypal-icon{
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  background-image: url('../src/assets/Paypal.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  left: 30px;
+  top: 0px;
+}
+
+.paypal-text{
+  position: absolute;
+  left: 65px;
+  top: 5px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #EBA182;
+}
+
+.name-container{
+  position: absolute;
+  width: 87px;
+  height: 38px;
+  left: 0px;
+  top: 128px;
+  /* background: rgba(217, 217, 217, 0.3); */
+}
+
+.card-owner-text{
+position: absolute;
+left: 0px;
+top: 0px;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 12px;
+color: #ECE8DF;
+}
+
+.card-owner-name{
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  color: #EBA182;
+}
+
+.card-number-container{
+  position: absolute;
+  width: 174px;
+  height: 39px;
+  left: 0px;
+  top: 0px;
+background: #D9D9D9;
+opacity: 0.3;
 }
