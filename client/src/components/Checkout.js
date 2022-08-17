@@ -121,29 +121,48 @@ const Checkout = () => {
             <div className="payment-info-container">
                 <p className="payment-info">Payment Info</p>
             </div>
-            <div className="payment-method-container">
-                <p className="payment-method-text">Payment Method</p>
-                <div className="checkboxes-container">
-                <input className="credit" type="radio" name="checked"></input>
-                    <div className="credit-icon"></div><p className="credit-text">Credit Card</p>
-                    <div className="paypal-container">
-                    <input className="paypal" type="radio" name="radio"></input>
-                    <div className="paypal-icon"></div><p className="paypal-text">Paypal</p>
+                <div className="payment-method-container">
+                    <p className="payment-method-text">Payment Method:</p>
+                    <div className="checkboxes-container">
+                    <input className="credit" type="radio" name="checked"></input>
+                        <div className="credit-icon"></div><p className="credit-text">Credit Card</p>
+                        <div className="paypal-container">
+                        <input className="paypal" type="radio" name="radio"></input>
+                        <div className="paypal-icon"></div><p className="paypal-text">Paypal</p>
+                        </div>
+                    <div className="name-container">
+                        <p className="card-owner-text">Card owner:</p>
+                        <p className="card-owner-name">John Cena</p>
                     </div>
-                <div className="name-container">
-                    <p className="card-owner-text">Card owner:</p>
-                    <p className="card-owner-name">John Cena</p>
+                    <div className="card-number-container">
+                        <div className="card-number-text">Card Numbers:</div>
+                        <div className="card-numbers-container">
+                            <div  className="dot-one"></div>
+                            <div  className="dot-two"></div>
+                            <div  className="dot-three"></div>
+                            <div  className="dot-four"></div>
+                            <div  className="dot-five"></div>
+                            <div  className="dot-six"></div>
+                            <div  className="dot-seven"></div>
+                            <div  className="dot-eight"></div>
+                            <div  className="dot-nine"></div>
+                            <div  className="dot-ten"></div>   
+                            <div  className="dot-eleven"></div>
+                            <div  className="dot-twelve"></div>
+                            <p className="card-last-digits">2153</p>
+                        </div> 
+                    </div>
+                    <div className="expiration-container">
+                        <p className="expiration-date-text">Expiration Date:</p>
+                        <p className="cvv-text">CVV:</p>
+                        <p className="ex-month">05</p>
+                        <div className="downarrow-icon"></div>
+                        <p className="ex-year">2022</p>
+                        <div className="downarrow-icon"></div>
+                    </div>
+                    <div className="checkout-butt"><p className="checkout-text">Check Out</p>
+                    </div>
                 </div>
-                <div className="card-number-container">
-                    <div className="card-number-text"></div>
-                </div>
-
-            </div>
-           
-
-
-
-
             </div>
         </div>
         </>
