@@ -2,7 +2,7 @@ const products = {
     inventory:[
     {
         id: 1,
-        productName: 'Third Eye Opening Spell', 
+        productName: 'Third Eye Spell', 
         inStock: 30, 
         availStock: [
             {
@@ -24,6 +24,7 @@ const products = {
             
             {
                 size: 15 + ' ml', 
+                price: R + '230',
                 qty: 13, 
                 variations: [
                     {
@@ -97,7 +98,7 @@ const products = {
     },
     {
         id: 3,
-        productName: 'HEART LOVE Lavender', 
+        productName: 'Heart love Spell', 
         inStock: 18, 
         availStock: [
             {
@@ -136,7 +137,7 @@ const products = {
     },
     {
         id: 4,
-        productName: 'THROAT COMMUNICATE Rosemary', 
+        productName: 'Communicate Spell', 
         inStock: 45, 
         availStock: [
             {
@@ -175,7 +176,7 @@ const products = {
     },
     {
         id: 5,
-        productName: 'CROWN ENLIGHTENMENT Lavender', 
+        productName: 'Enlightenment Spell', 
         inStock: 30, 
         availStock: [
             {
@@ -231,7 +232,7 @@ const products = {
     },
     {
         id: 6,
-        productName: 'ROOT GROUNDED Myrrh', 
+        productName: 'Grounding Spell', 
         inStock: 20, 
         availStock: [
             {
@@ -287,7 +288,7 @@ const products = {
     },
     {
         id: 7,
-        productName: 'Prosperity Spell - Luck and Money', 
+        productName: 'Prosperity Spell', 
         inStock: 8, 
         availStock: [
             {
@@ -460,7 +461,7 @@ const products = {
     },
     {
         id: 11,
-        productName: 'Aura Cleansing', 
+        productName: 'Aura Cleansing Spell', 
         inStock: 20, 
         availStock: [
             {
