@@ -1924,15 +1924,49 @@ color: #ECE8DF;
   border-radius: 37px;
 }
 
+.add-product-heading{
+  position: absolute;
+  width: 165px;
+  height: 29px;
+  left: 35px;
+  top: 33px;
+  font-family: myFavFont;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FECB9B;
+}
+
 input[type="text"].product-name{
   padding: 8px;
   box-sizing: border-box;
-  width: 198px;
-  height: 39px;
+  width: 407px;
+  height: 55px;
+  left: 35px;
   color: #D1E9E3;
   background: #3F6569;
   font-family: avenirBook;
   border: 0.4px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+}
+
+.product-name{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 8px;
+ }
+
+ ::placeholder{
+  position: absolute;
+  width: 114px;
+  height: 23px;
+  left: 8px;
+  top: 8px;
+  font-family: avenirBook;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 23px;
+  color: #D1E9E3;
 }

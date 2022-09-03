@@ -26,7 +26,8 @@ const Admin = () => {
                 </div>
 
                 <div className="add-product-container">
-                    <form>
+                    <p className="add-product-heading">Add A Product</p>
+                    {/* <form>
                         <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
                         <input type={"numbner"} className={"product-price"} placeholder={"Product Price*"}></input>
                         <input type={"text"} className={"product-desc"} placeholder={"Product Description*"}></input>
@@ -36,12 +37,12 @@ const Admin = () => {
                             <option>10ml</option>
                             <option>30ml</option>
                         </select>
-                        <input type={"text"} className={"product-name"} placeholder={"Quantity*"}></input>
-                        <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
-                        <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
-                        <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
-                        <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
-                    </form>
+                        <input type={"number"} className={"product-quantity"} placeholder={"Quantity*"}></input>
+                        <input type={"text"} className={"product-black"} placeholder={"In Stock: Black*"}></input>
+                        <input type={"text"} className={"product-white"} placeholder={"In Stock: White*"}></input>
+                        <input type={"text"} className={"product-silver"} placeholder={"In Stock: Silver*"}></input>
+                        <input type={"text"} className={"product-gold"} placeholder={"In Stock: Gold*"}></input>
+                    </form> */}
                 </div>
             </div>
 
