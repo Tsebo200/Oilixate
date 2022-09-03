@@ -1912,3 +1912,16 @@ color: #ECE8DF;
   cursor: pointer;
 }
 
+.add-product-container{
+  position: relative;
+  width: 477px;
+  height: 751px;
+  left: 925px;
+  top: -395px;
+  background: #2B4447;
+  border-radius: 37px;
+}
+
+.product-name{
+  
+}

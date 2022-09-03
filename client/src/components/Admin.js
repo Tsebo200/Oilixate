@@ -24,13 +24,28 @@ const Admin = () => {
                     <div className="view-btn"><p className="view-text">View product</p></div>
                     <div className="edit-btn"><p className="edit-text">Edit product</p></div>
                 </div>
+
+                <div className="add-product-container">
+                    <form>
+                        <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
+                        <input type={"numbner"} className={"product-price"} placeholder={"Product Price*"}></input>
+                        <input type={"text"} className={"product-desc"} placeholder={"Product Description*"}></input>
+                        <input type={"text"} className={"product-disc"} placeholder={"Product Disclaimer*"}></input>
+                        <select placeholder={"Size:"}>
+                            <option>5ml</option>
+                            <option>10ml</option>
+                            <option>30ml</option>
+                        </select>
+                        <input type={"text"} className={"product-name"} placeholder={"Quantity*"}></input>
+                        <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
+                        <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
+                        <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
+                        <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
+                    </form>
+                </div>
             </div>
 
-            <div className="add-product-container">
-                <form>
-                    
-                </form>
-            </div>
+         
         </div>
         </>
     )
