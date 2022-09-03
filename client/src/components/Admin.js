@@ -27,9 +27,13 @@ const Admin = () => {
 
                 <div className="add-product-container">
                     <p className="add-product-heading">Add A Product</p>
-                    {/* <form>
+                    <form>
                         <input type={"text"} className={"product-name"} placeholder={"Product Name*"}></input>
-                        <input type={"numbner"} className={"product-price"} placeholder={"Product Price*"}></input>
+                        <input type={"number"} className={"product-price"} placeholder={"Product Price*"}></input>
+                    </form>
+                    {/* <form>
+
+                       
                         <input type={"text"} className={"product-desc"} placeholder={"Product Description*"}></input>
                         <input type={"text"} className={"product-disc"} placeholder={"Product Disclaimer*"}></input>
                         <select placeholder={"Size:"}>
