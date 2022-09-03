@@ -32,24 +32,20 @@ const Admin = () => {
                         <input type={"number"} className={"product-price"} placeholder={"Product Price*"}></input>
                         <input type={"text"} className={"product-desc"} placeholder={"Product Description*"}></input>
                         <input type={"text"} className={"product-disc"} placeholder={"Product Disclaimer*"}></input>
-                        <select placeholder={"Size:"}>
+                        <select className="admit-product-size" placeholder={"Size:"}>
+                            <option>----Select Size----</option>
                             <option>5ml</option>
                             <option>10ml</option>
                             <option>30ml</option>
                         </select>
-                    </form>
-                    {/* <form>
-
-                       
-                       
-
-                   
                         <input type={"number"} className={"product-quantity"} placeholder={"Quantity*"}></input>
                         <input type={"text"} className={"product-black"} placeholder={"In Stock: Black*"}></input>
                         <input type={"text"} className={"product-white"} placeholder={"In Stock: White*"}></input>
                         <input type={"text"} className={"product-silver"} placeholder={"In Stock: Silver*"}></input>
                         <input type={"text"} className={"product-gold"} placeholder={"In Stock: Gold*"}></input>
-                    </form> */}
+                        <button type={"submit"} className={"new-product-btn"}>ADD NEW PRODUCT</button>
+                    </form>
+
                 </div>
             </div>
 

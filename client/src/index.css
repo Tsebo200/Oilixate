@@ -2015,12 +2015,11 @@ input[type="number"].product-price{
 .product-desc{
   position: absolute;
   left: 0px;
-  padding: 50px;
  }
 
  input[type="text"].product-disc{
   position: absolute;
-  padding: 8px;
+  padding: -50px;
   box-sizing: border-box;
   width: 407px;
   height: 97px;
@@ -2037,5 +2036,146 @@ input[type="number"].product-price{
 .product-desc{
   position: absolute;
   left: 0px;
-  padding: 200px;
  }
+
+ .admit-product-size{
+  position: absolute;
+  font-family: AvenirBook;
+  font-size: 16.5px;
+  left: -80px;
+  top: 430px;
+  width: 192px;
+  height: 55px;
+  margin-left: 117px;
+  margin-top: 20px;
+  border-style: none;
+  text-align: center;
+  background: #3F6569;
+  border: 0.4px solid #000000;
+  color: #D1E9E3; /* How to change color of the dropdown icon Only */
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product-quantity{
+  position: absolute;
+  font-family: AvenirBook;
+  font-size: 16.5px;
+  left: 125px;
+  top: 430px;
+  width: 192px;
+  height: 53px;
+  margin-left: 117px;
+  margin-top: 20px;
+  border-style: none;
+  text-align: center;
+  background: #3F6569;
+  border: 0.4px solid #000000;
+  color: #D1E9E3; /* How to change color of the dropdown icon Only */
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product-black{
+  position: absolute;
+  font-family: AvenirBook;
+  font-size: 16.5px;
+  width: 190px;
+  height: 53px;
+  left: 35px;
+  top: 500px;
+  margin-top: 20px;
+  border-style: none;
+  background: #3F6569;
+  border: 0.4px solid #000000;
+  color: #D1E9E3; /* How to change color of the dropdown icon Only */
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product-white{
+  position: absolute;
+  font-family: AvenirBook;
+  font-size: 16.5px;
+  width: 192px;
+  height: 53px;
+  left: 245px;
+  top: 500px;
+  margin-top: 20px;
+  border-style: none;
+  background: #3F6569;
+  border: 0.4px solid #000000;
+  color: #D1E9E3; /* How to change color of the dropdown icon Only */
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product-white{
+  position: absolute;
+  font-family: AvenirBook;
+  font-size: 16.5px;
+  width: 192px;
+  height: 53px;
+  left: 245px;
+  top: 500px;
+  margin-top: 20px;
+  border-style: none;
+  background: #3F6569;
+  border: 0.4px solid #000000;
+  color: #D1E9E3; /* How to change color of the dropdown icon Only */
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product-silver{
+  position: absolute;
+  font-family: AvenirBook;
+  font-size: 16.5px;
+  width: 192px;
+  height: 53px;
+  left: 35px;
+  top: 570px;
+  margin-top: 20px;
+  border-style: none;
+  background: #3F6569;
+  border: 0.4px solid #000000;
+  color: #D1E9E3; /* How to change color of the dropdown icon Only */
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product-gold{
+  position: absolute;
+  font-family: AvenirBook;
+  font-size: 16.5px;
+  width: 192px;
+  height: 53px;
+  left: 245px;
+  top: 570px;
+  margin-top: 20px;
+  border-style: none;
+  background: #3F6569;
+  border: 0.4px solid #000000;
+  color: #D1E9E3; /* How to change color of the dropdown icon Only */
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ .new-product-btn{
+  position: absolute;
+  width: 405px;
+  height: 55px;
+  left: 35px;
+  top: 660px;
+  text-decoration: none;
+  border-style: none;
+  text-align: center;
+  background: #EBA182;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  font-family: avenirBook;
+  font-size: 13.5px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #D1E9E3;
+}
