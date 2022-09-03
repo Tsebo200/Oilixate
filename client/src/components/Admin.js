@@ -25,6 +25,12 @@ const Admin = () => {
                     <div className="edit-btn"><p className="edit-text">Edit product</p></div>
                 </div>
             </div>
+
+            <div className="add-product-container">
+                <form>
+                    
+                </form>
+            </div>
         </div>
         </>
     )
