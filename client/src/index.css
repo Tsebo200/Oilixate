@@ -1724,3 +1724,107 @@ color: #ECE8DF;
   background-position: center;
   background-size: cover;
 }
+
+.oil-size{
+  position: absolute;
+  width: 54px;
+  height: 16px;
+  left: 16px;
+  top: 50px;
+  font-family: AvenirMedium;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #E6B27E;
+}
+
+.oil-colour-cap{
+  position: absolute;
+  width: 54px;
+  height: 16px;
+  left: 113px;
+  top: 50px;
+  font-family: AvenirMedium;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #E6B27E;
+}
+
+.stock-left{
+  position: absolute;
+  width: 66px;
+  height: 16px;
+  left: 17px;
+  top: 73px;
+  font-family: AvenirMedium;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #E6B27E;
+}
+
+.oil-price{
+  position: absolute;
+  width: 66px;
+  height: 16px;
+  left: 110px;
+  top: 73px;
+  font-family: AvenirMedium;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #E6B27E;
+}
+
+.oil-desc-label{
+  position: absolute;
+  width: 54px;
+  height: 14px;
+  left: 30px;
+  top: 101px;
+  font-family: AvenirMedium;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: -0.01em;
+  color: #E6B27E;
+}
+
+.oil-desc{
+  position: absolute;
+  width: 252px;
+  height: 73px;
+  left: -73px;
+  top: 114px;
+  font-family: AvenirBook;
+  font-size: 8px;
+  line-height: 11px;
+  color: #FFFFFF;
+}
+
+.oil-disclaimer-label{
+  position: absolute;
+  width: 49px;
+  height: 14px;
+  left: 25px;
+  top: 198px;
+  font-family: AvenirMedium;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: -0.01em;
+  color: #E6B27E;
+}
+
+.oil-disclaimer{
+  position: absolute;
+  width: 252px;
+  height: 66px;
+  left: -78px;
+  top: 211px;
+  font-family: AvenirMedium;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  color: #FFFFFF;
+}
