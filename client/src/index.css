@@ -1566,6 +1566,10 @@ color: #ECE8DF;
   background-image: url('../src/assets/downChevLine.svg');
 }
 
+.downarrow-icon:hover{
+  background-image: url('../src/assets/downChevLineHover.svg');
+}
+
 .ex-year{
   position: absolute;
   left: 108px;
@@ -1606,4 +1610,17 @@ color: #ECE8DF;
   color: #2B4447;
   background: #ECE8DF;
   border-radius: 6px;
+}
+
+.downarrow-icon-two{
+  position: absolute;
+  width: 10px;  
+  height: 6.5px;
+  left: 164px;
+  top: 35px;
+  background-image: url('../src/assets/downChevLine.svg');
+}
+
+.downarrow-icon-two:hover{
+  background-image: url('../src/assets/downChevLineHover.svg');
 }
