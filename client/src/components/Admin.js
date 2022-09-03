@@ -20,6 +20,8 @@ const Admin = () => {
                 <p className="oil-desc">Lorem ipsim</p>
                 <p className="oil-disclaimer-label">Disclaimer:</p>
                 <p className="oil-disclaimer">Lorem ipsum</p>
+                <div className="view-btn"></div>
+                <div className="edit-btn"></div>
             </div>
         </div>
         </>
