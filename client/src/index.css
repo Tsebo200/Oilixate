@@ -1560,11 +1560,10 @@ color: #ECE8DF;
 .downarrow-icon{
   position: absolute;
   width: 10px;  
-  height: 6px;
+  height: 6.5px;
   left: 38px;
   top: 35px;
-  background: red;
-  background-image: url('../src/assets/LeftChevLine.svg');
+  background-image: url('../src/assets/downChevLine.svg');
 }
 
 .ex-year{
