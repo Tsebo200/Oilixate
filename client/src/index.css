@@ -1624,3 +1624,13 @@ color: #ECE8DF;
 .downarrow-icon-two:hover{
   background-image: url('../src/assets/downChevLineHover.svg');
 }
+
+.actual-cvv-text{
+  position: absolute;
+  left: 240px;
+  top: 30px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  color: #EBA182;
+}

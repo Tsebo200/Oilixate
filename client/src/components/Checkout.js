@@ -160,6 +160,7 @@ const Checkout = () => {
                         <p className="ex-year">2022</p>
                         <div className="downarrow-icon-two"></div>
                         <div className="downarrow-icon"></div>
+                        <p className="actual-cvv-text">159</p>
                     </div>
                     <div className="checkout-butt"><p className="checkout-text">Check Out</p>
                     </div>
