@@ -673,7 +673,11 @@ html, body, p, li, ul, h1{
 .product-two-img{
   width: 84px;
   height: 84px;
-  background: #D9D9D9;
+  /* background: #D9D9D9; */
+  background-image: url('../src/assets/Full\ Dropper\ Gold\ Cap.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:-3px;
   border-radius: 100%;
   float: left;
 }
@@ -702,7 +706,11 @@ html, body, p, li, ul, h1{
 .product-three-img{
   width: 84px;
   height: 84px;
-  background: #D9D9D9;
+  /* background: #D9D9D9; */
+  background-image: url('../src/assets/Full\ Dropper\ Black\ Cap.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:-3px;
   border-radius: 100%;
   float: left;
 }
@@ -730,7 +738,11 @@ html, body, p, li, ul, h1{
 .product-four-img{
   width: 84px;
   height: 84px;
-  background: #D9D9D9;
+  /* background: #D9D9D9; */
+  background-image: url('../src/assets/Full\ Dropper\ White\ Cap.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:-3px;
   border-radius: 100%;
   float: left;
 }
@@ -2223,4 +2235,10 @@ input[type="number"].product-price{
   line-height: 18px;
   text-transform: uppercase;
   color: #D1E9E3;
+}
+
+.new-product-btn:hover{
+  border: 1px solid #ECE8DF;
+  background: none;
+  cursor: pointer;
 }
