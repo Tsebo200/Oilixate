@@ -7,11 +7,11 @@ router.post('/api/addproduct', (req, res) => {
     const newProduct  = new productSchema({
         productName: req.body.productName,
         productPrice: req.body.productPrice,
-        // description: req.body.description,
-        // disclaimer: req.body.disclaimer,
-        // size: req.body.size,
-        // quantity: req.body.quantity,
-        // inStock: req.body.inStock,
+        description: req.body.description,
+        disclaimer: req.body.disclaimer,
+        size: req.body.size,
+        quantity: req.body.quantity,
+        inStock: req.body.inStock,
     });
 
     newProduct.save()
@@ -29,8 +29,25 @@ router.get('/api/allproducts', async (req, res) => {
 });
 
 router.get('/api/oneproduct/:id', async (req, res) => {
-    const findProducts = await productSchema.findById(req.params.id);
-    res.json(findProducts);
-})
+    const findProduct = await productSchema.findById(req.params.id);
+    res.json(findProduct);
+
+});
+
+router.delete('/api/deleteproduct/:id', async (req, res) => {
+    const delProduct = await productSchema.remove({_id:req.params.id})
+    res.json(delProduct);
+
+});
+
+router.patch('/api/updateproduct/:id', async (req, res) => {
+    const updProduct = await productSchema.updateOne(
+        {_id:req.params.id}, 
+        {$set: {productName: req.body.productName} && {productPrice: req.body.productPrice}})
+        // {$set: {productPrice: req.body.productPrice}}
+    res.json(updProduct);
+
+});
+
 
 module.exports = router;
