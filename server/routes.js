@@ -12,8 +12,14 @@ router.post('/api/addproduct', (req, res) => {
         size: req.body.size,
         quantity: req.body.quantity,
         inStock: req.body.inStock,
+    });
 
-
+    newProduct.save()
+    .then(item => {
+        express.json(item);
+    })
+    .catch(err => {
+        res.status(400).json({msg: "There was ana error", err});
     });
 });
 
