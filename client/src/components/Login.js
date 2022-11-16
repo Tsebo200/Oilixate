@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom";
 
 const Login = () => {
     const locate = useNavigate;
-    locate("/IndiProduct");
+    locate("/Checkout");
 
     return(
         <>
@@ -20,11 +20,10 @@ const Login = () => {
                 <form><input className='password-input' type={'password'} placeholder={"Enter Your Password"} /*onChange={passwordVal}*/></input></form>
                 <form><input className='check-box' type={'checkbox'}></input><label className="remember-me-text">Remember for 30 days</label></form>
                 <p className='forgot-password-text'>forgot password?</p>
-                <a href="IndiProduct"><div className='signIn-btn-container' /*onClick={locate}*/>
+                <a href="Checkout"><div className='signIn-btn-container' /*onClick={locate}*/>
                     <p className='signIn-btn-text'>Sign in</p>
                 </div></a>
                 <div className='SignIn-Google-btn'><p className='Sign-Google-text'>Sign In with Google</p></div>
-
             </div>
             <div className='right'></div>
         </div>
